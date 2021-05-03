@@ -1,0 +1,48 @@
+.videoRow {
+  display: flex;
+  margin-bottom: 30px;
+  max-width: 700px;
+  cursor: pointer;
+}
+
+.videoRow > img {
+  object-fit: contain;
+  width: 246px;
+  height: 138px;
+}
+
+.videoRow__text {
+  margin-left: 14px;
+}
+
+.videoRow__text > h3 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.videoRow__description {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #606060;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.videoRow__headline {
+  font-size: 14px;
+  color: #606060;
+}
+
+.videoRow__subsNumber {
+  font-weight: bolder;
+  color: rgb(84, 157, 211);
+}
+
+.videoRow__subs {
+  padding: 2px;
+  background: lightgray;
+}
